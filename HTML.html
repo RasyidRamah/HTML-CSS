@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+	
+		<title>
+			HTML&CSS
+		</title>
+
+		<link rel="stylesheet" type="text/css" href="CSS.css">
+	</head>
+
+<body>
+	<h1>
+		Hello
+	</h1>
+	<p>
+		this is test of html and css
+	</p>
+
+	
+<div class="content section" style="max-width:500px">
+	<img class="mySlides animate-left" img jsname="uLHQEd" class="BiCYpc" width="551" height="365" src="https://lh3.googleusercontent.com/_8fBwFHZUKMPfptljbRhtLnoJTvd6eNC0brP0DbJHviF2V2NvuXsazTmUwHpv77RpzjAI6JrrbB0ipqcp4gSwDseyUY0XQoI-6Pti5FIjBb57m3SYNkZxnlpW4r1m8LmaCwk5kLLJ9K-lF2WAJWdy11Le1XT0YACO3O2IWoRkVn8x_MQLUM-u_LF4eWzR5ceI2MlQyU-H1BAcaCnVR1VKrqItq43LcWl8PYCloqP2RMOgZ3lr3-sqFnursGqYY25wPpmCJowiajJnCDQVff2Wr39vTVxDmliOHozhoKQhtb-foNnkCOh_tvYuNGjeQcGW3qQdiiM3krij9xfAz_iORBkCDWrPF7kh-PVtwQbnDg9GDG198K3xBNmAOzdBELmChZSMmbqBzjCDpvjCOeK22Oz_bPT8oZLoX4LFlu3zmm6KqHZqGA7A6SpMYVGN7ws6rvo974yTffIHq4DI3sadBnTQyxws34--FpQVqq8lpqRnktYThyxT-mGUfa0NHSrhWABqIYSCq9ldvHqQdTf8fUQ8LG__oKdsTYl29nU4kO6IwTKkdVL8YZPVIJ3Fl0Ur_1QrbzvPypUcCff5K63dH_q3xU-YYrcVk5-QdZth-ZUpXPi8UiKqBYwQgsM07GtagUMR__xPTCTXT6RSo-BL6HAuM6v19R0ZclEJzJJ6MWxj57nTSH_1TjkJULfxOe49dAzFIAttCTuyURuz4Eiw0FW4uYqXE0hOPBZNar8bmIaOW3H_hPdclKyCYfT8A=w551-h365-no?authuser=0" data-atf="false" style="transform: translate3d(0px, 0px, 0px) rotate(0deg);" data-iml="130109.10000002384" aria-label="Foto - Lanskap - 26 Feb 2022 09.48.35" style="width:100%">
+	<img class="mySlides animate-left" img jsname="uLHQEd" class="BiCYpc" width="551" height="262" src="https://lh3.googleusercontent.com/HAqm-33oci4KmILWMXHHLEoM18PzNovOt8N6YJycALNVvsm8IHzRwGJn0Gpn7jDiKp5QYiRjjE_RVDviWvYnhjsKyImPgqRvkiwySK2L6WGfPaUmXgeg20GX36_d_ndii1kQgZBpFNMxCRroyM5jwS6_KZD2jHkjiLot9X0q7uf6hriTh09-nFroF4oEzfs1-WFKQVqQTP9xSENIT07BJduLETHwOYPgs6VfMAbUQ6_UxQdSEln9oPBFnJNyvRezU6lUv3cguGKQ3CkoaMdNAaJUU68Eo5HI_qBQ8kI5KpNbTVfsOx3bc_C79p0UwOCpzoUdPi7Rj8xUkm198tgLlawITF81I4S00tVnhfBw_3P-rmTjIO5aLp-9PwzNRJsJ1by0mys7W2fQB_X2wIHgW6Kaj_WRfK9m2Ga0wsKRq--80ZcrweAaVaHmf1h9jShksU6ijfY5WsZH6kn56-4lIKpdTxChlbsieDMkTLM0a7bdTdYFFpEakXqIFGs4AmpCKXGjMF0Ya2TMMERYiJwst4mJ_B6ixdKkxMC9OYkX6Cj-3AqVdbsfsH0rbeN7-ebODdiQgJS_DRIwccmQ-bzCVC4IpxTDDDXjHZysE2y6Ho_2vIO6wDESyXSAgT5A9cU-BbBZVEvdxJzZRtrEShl5RT1qWLv99_WGf_jg77UPGaPU4fXKykkiOr7HesIpz6CvSe9KyAXuutg8jSd8UGhcabQ3Dqn6F9x0TGzPKPtbLPb-DyrgPByH3u-sE1Uqgg=w551-h262-no?authuser=0" style="transform: translate3d(0px, 0px, 0px) rotate(0deg);" aria-label="Foto - Lanskap - 21 Jan 2022 05.21.22" data-atf="false" data-iml="801910.1999999285" style="width:100%">
+  </div>
+  
+  <script>
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+	var i;
+	var x = document.getElementsByClassName("mySlides");
+	for (i = 0; i < x.length; i++) {
+	  x[i].style.display = "none";  
+	}
+	myIndex++;
+	if (myIndex > x.length) {myIndex = 1}    
+	x[myIndex-1].style.display = "block";  
+	setTimeout(carousel, 2500);    
+  }
+  </script>
+
+</body>

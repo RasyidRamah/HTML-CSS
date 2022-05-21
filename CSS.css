@@ -1,0 +1,10 @@
+p, H1, li {
+	color: aqua;
+	font-size: medium;
+	font-style: italic;
+	font-weight: bold;
+
+	body 
+		background-color: azure;
+}
+
